@@ -1,120 +1,121 @@
 /* for header footer sizing */
 * {
-box-sizing: border-box;
-padding: 0;
-margin: 0;
-overflow-x: hidden;
-
-
-}
-
-/* for header */
-header{	
-text-align: center;
-font-size: 16px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  
+  
+  }
+  
+  /* for header */
+  header{	
+  text-align: center;
+  font-size: 16px;
+    background-color: rgb(92, 62, 62);
+    color:rgb(226, 224, 210);
+    box-sizing: border-box;
+  }
+  
+  /* for image of myself */
+  .picture{
+    padding-top: 15px;
+  }
+  
+  /* background coloring */
+  main{
+  background-color: rgb(177, 169, 149);
+  color:rgb(56, 52, 25);
+  }
+  
+  
+  /* background coloring */
+  body{
+  
+    background-color: rgb(177, 169, 149);
+  
+  }
+  
+  /*  text centering */
+  main div{
+    text-align: center;
+  }
+  
+  /* adding horizontal lines */
+  hr{
+  border: 1px solid black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  }
+  
+  /* footer editing */
+  footer{
+  text-align: center;
   background-color: rgb(92, 62, 62);
   color:rgb(226, 224, 210);
+  padding: 4px;
   box-sizing: border-box;
-}
-
-/* for image of myself */
-.picture{
-  padding-top: 15px;
-}
-
-/* background coloring */
-main{
-background-color: rgb(177, 169, 149);
-color:rgb(56, 52, 25);
-}
-
-
-/* background coloring */
-body{
-
-  background-color: rgb(177, 169, 149);
-
-}
-
-/*  text centering */
-main div{
-  text-align: center;
-}
-
-/* adding horizontal lines */
-hr{
-border: 1px solid black;
-margin-top: 50px;
-margin-bottom: 50px;
-}
-
-/* footer editing */
-footer{
-text-align: center;
-background-color: rgb(92, 62, 62);
-color:rgb(226, 224, 210);
-padding: 4px;
-box-sizing: border-box;
-}
-
-/* paragraph editing */
-p {
-  font-family: 'Times New Roman', Times, serif;
-  text-align: center;
-}
-
-/* centering text */
-h2, h3{
+  }
   
-  text-align: center;
-}
-
-/* for google maps */
- nav {
-
-   margin-top: 15px;
-   margin-bottom: 25px;
-   text-align: center;
- }
-
-/*  about me list editing */
- .list{
-  list-style-type: none;
-  margin: 0;
-  padding-bottom: 10px;
-  text-align: center;
- }
-
-/* general sectioning */
- section {
-
-   text-align: center;
- }
-
-/* used for adding space between things */
- .space{
-
-   padding-bottom: 15px;
- }
-
-/* ordered list editing */
- ol{
-
-   padding: 15px;
- }
-
-/* header paragraph editing */
- header p {
-
-   font-size: 20px;
-   font-family: 'Times New Roman', Times, serif;
+  /* paragraph editing */
+  p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
   
- }
-
-
-/* for link editing */
-a:link    { color: blue;  }
-a:visited { color: purple;   }
-a:hover   { color: white; }
-a:active  { color: red;  }
-
+  /* centering text */
+  h2, h3{
+    
+    text-align: center;
+  }
+  
+  /* for google maps */
+   nav {
+  
+     margin-top: 15px;
+     margin-bottom: 25px;
+     text-align: center;
+   }
+  
+  /*  about me list editing */
+   .list{
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 10px;
+    text-align: center;
+   }
+  
+  /* general sectioning */
+   section {
+  
+     text-align: center;
+   }
+  
+  /* used for adding space between things */
+   .space{
+  
+     padding-bottom: 15px;
+   }
+  
+  /* ordered list editing */
+   ol{
+  
+     padding: 15px;
+   }
+  
+  /* header paragraph editing */
+   header p {
+  
+     font-size: 20px;
+     font-family: 'Times New Roman', Times, serif;
+    
+   }
+  
+  
+  /* for link editing */
+  a:link    { color: blue;  }
+  a:visited { color: purple;   }
+  a:hover   { color: white; }
+  a:active  { color: red;  }
+  
+  
