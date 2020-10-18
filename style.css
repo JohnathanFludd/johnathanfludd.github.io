@@ -124,7 +124,7 @@ h2, h3{
 /* for link editing */
 a:link    { color: blue;  }
 a:visited { color: purple;   }
-a:hover   { color: white; }
+a:hover   { color: green; }
 a:active  { color: red;  }
 
 
